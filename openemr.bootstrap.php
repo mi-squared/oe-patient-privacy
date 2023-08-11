@@ -12,7 +12,7 @@
 //require_once __DIR__.'/vendor/autoload.php';
 
 use OpenEMR\Events\PatientFinder\PatientFinderFilterEvent;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Contracts\EventDispatcher\Event;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use OpenEMR\Menu\MenuEvent;
 use PatientPrivacy\PatientPrivacyService;
